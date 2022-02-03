@@ -1,5 +1,5 @@
-Multimeedia: Ruum A_218, Pant Gert
-Programmeerimise alused: Ruum E_07, Oleinik Marina
+chill.jpg: Ruum A_218, Pant Gert
+prog.png: Ruum E_07, Oleinik Marina
 Rühmajuhataja tund: Ruum E_07, Oleinik Marina
 Inglise Keel_1: Ruum B_138, Poskotinova Olga
 Inglise Keel_2: Ruum b_148, Zestjakova Ellina

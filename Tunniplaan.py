@@ -11,12 +11,13 @@ def failist_lugemine():
 	print(tund_kirjeldus)
 	return tund_kirjeldus
 
-def kirjeldus_aknasse(t:str):
+def kirjeldus_aknasse(t:str,tit:str):
 	if (askyesno("Küsimus","Kas tahad kirjeldust näha?")):
 		alam_aken=Toplevel()
+		alam_aken.title(tit)
 		lbl_kirjeldus=Label(alam_aken,text=tund_kirjeldus[t]).pack()
 		c=Canvas(alam_aken,height=300,width=500)
-		file=PhotoImage(file="prog.png")
+		file=PhotoImage(file=t)
 		c.create_image(15,15,image=file,anchor=NW)
 		c.pack()
 		alam_aken.mainloop()
@@ -42,11 +43,11 @@ for i in range(11):
 	tn="t"+str(i)
 	tn=Label(aken,text=str(i)+"\n"+kell[i],relief="groove",font="Arial",width=10,height=2).grid(row=0,column=i+1,sticky=N+S+W+E)
 
-ml=Button(aken,text="Multimeedia",command=lambda:kirjeldus_aknasse("Multimeedia"),relief="groove",font="Arial",width=4,height=1,bg="#424983").grid(row=1,column=2,columnspan=2,sticky=N+S+W+E)
-pr=Button(aken,text="Programmeerimise \nalused",command=lambda:kirjeldus_aknasse("Programmeerimise alused"),relief="groove",font="Arial",width=4,height=1,bg="#1ebbd7").grid(row=2,column=2,columnspan=3,sticky=N+S+W+E)
-ml=Button(aken,text="Multimeedia",command=lambda:kirjeldus_aknasse("Multimeedia"),relief="groove",font="Arial",width=4,height=1,bg="#424983").grid(row=2,column=5,columnspan=2,sticky=N+S+W+E)
-pr=Button(aken,text="Programmeerimise \nalused",command=lambda:kirjeldus_aknasse("Programmeerimise alused"),relief="groove",font="Arial",width=4,height=1,bg="#1ebbd7").grid(row=1,column=5,columnspan=3,sticky=N+S+W+E)
-ru=Button(aken,text="Rühma\njuhataja \ntund",command=lambda:kirjeldus_aknasse("Rühmajuhataja tund"),relief="groove",font="Arial",width=4,height=1,bg="#1ebbd7").grid(row=1,column=8,rowspan=2,sticky=N+S+W+E)
+ml=Button(aken,text="Multimeedia",command=lambda:kirjeldus_aknasse("chill.jpg","Multimeedia"),relief="groove",font="Arial",width=4,height=1,bg="#424983").grid(row=1,column=2,columnspan=2,sticky=N+S+W+E)
+pr=Button(aken,text="Programmeerimise \nalused",command=lambda:kirjeldus_aknasse("prog.png","Programmeerimise alused"),relief="groove",font="Arial",width=4,height=1,bg="#1ebbd7").grid(row=2,column=2,columnspan=3,sticky=N+S+W+E)
+ml=Button(aken,text="Multimeedia",command=lambda:kirjeldus_aknasse("chill.jpg","Multimeedia"),relief="groove",font="Arial",width=4,height=1,bg="#424983").grid(row=2,column=5,columnspan=2,sticky=N+S+W+E)
+pr=Button(aken,text="Programmeerimise \nalused",command=lambda:kirjeldus_aknasse("prog.png","Programmeerimise alused"),relief="groove",font="Arial",width=4,height=1,bg="#1ebbd7").grid(row=1,column=5,columnspan=3,sticky=N+S+W+E)
+ru=Button(aken,text="Rühma\njuhataja \ntund",command=lambda:kirjeldus_aknasse("chill.jpg","Rühmajuhataja tund"),relief="groove",font="Arial",width=4,height=1,bg="#1ebbd7").grid(row=1,column=8,rowspan=2,sticky=N+S+W+E)
 
 en1=Button(aken,text="Inglise Keel_1",command=lambda:kirjeldus_aknasse("Inglise Keel_1"),relief="groove",font="Arial",width=4,height=1,bg="#f8ac6a").grid(row=3,column=2,columnspan=2,sticky=N+S+W+E)
 en2=Button(aken,text="Inglise Keel_2",command=lambda:kirjeldus_aknasse("Inglise Keel_2"),relief="groove",font="Arial",width=4,height=1,bg="#8e7cc3").grid(row=4,column=2,columnspan=2,sticky=N+S+W+E)
