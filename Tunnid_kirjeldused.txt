@@ -1,15 +1,15 @@
-Multimeedia:Ruum A_218 Pant Gert
-Programmeerimise alused:Ruum E_07 Oleinik Marina
-Rühmajuhataja tund:Ruum E_07 Oleinik Marina
-Inglise Keel_1:Ruum B_138 Poskotinova Olga
-Inglise Keel_2:Ruum b_148 Zestjakova Ellina
-Operatsioonisüstee mide alused:Ruum A_243 Shkarbanova Lury
-Kehaline Kasvatus:Ruum Voimla B Maskimiv Maskim
-Eesti Keel_1:Ruum B_226 Pesetskaja Irina
-Eesti Keel_2:Ruum B_234 Ojamae Olesja
-Ajalugu  inimgeograafia:Ruum B_239 Speek Mari
-Kunstiained: Ruum B_232 Norkevits Aleksandra
-Andmebaasisüsteemide  alused:Ruum E_10 Merkulova Irina
-Keel ja kirjandus: Ruum B_221 Mihailova Ljudmilla
-Matemaatika: Ruum B_133 Voronova Nadezda
-Suhtlemine ja  klienditeenidus: Ruum B_003 Schumann Sirje
+Multimeedia: Ruum A_218, Pant Gert
+Programmeerimise alused: Ruum E_07, Oleinik Marina
+Rühmajuhataja tund: Ruum E_07, Oleinik Marina
+Inglise Keel_1: Ruum B_138, Poskotinova Olga
+Inglise Keel_2: Ruum b_148, Zestjakova Ellina
+Operatsioonisüstee mide alused: Ruum A_243, Shkarbanova Lury
+Kehaline Kasvatus: Ruum Voimla B, Maskimiv Maskim
+Eesti Keel_1: Ruum B_226, Pesetskaja Irina
+Eesti Keel_2: Ruum B_234, Ojamae Olesja
+Ajalugu  inimgeograafia: Ruum B_239, Speek Mari
+Kunstiained: Ruum B_232, Norkevits Aleksandra
+Andmebaasisüsteemide  alused: Ruum E_10, Merkulova Irina
+Keel ja kirjandus: Ruum B_221, Mihailova Ljudmilla
+Matemaatika: Ruum B_133, Voronova Nadezda
+Suhtlemine ja  klienditeenidus: Ruum B_003, Schumann Sirje

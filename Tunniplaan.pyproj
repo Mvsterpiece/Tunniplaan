@@ -24,6 +24,8 @@
     <Compile Include="Tunniplaan.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="chill.jpg" />
+    <Content Include="prog.png" />
     <Content Include="Tunnid_kirjeldused.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
