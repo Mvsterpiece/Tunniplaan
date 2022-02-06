@@ -24,8 +24,21 @@
     <Compile Include="Tunniplaan.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="duck.gif" />
+    <Content Include="AI.png" />
+    <Content Include="Chill.png" />
+    <Content Include="EE1.png" />
+    <Content Include="EE.png" />
+    <Content Include="ENG1.png" />
+    <Content Include="ENG.png" />
+    <Content Include="GYM.png" />
+    <Content Include="hitler.png" />
+    <Content Include="klient.png" />
+    <Content Include="mat.png" />
+    <Content Include="mozart.png" />
+    <Content Include="oper.png" />
     <Content Include="prog.png" />
+    <Content Include="rus.png" />
+    <Content Include="system.png" />
     <Content Include="Tunnid_kirjeldused.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
